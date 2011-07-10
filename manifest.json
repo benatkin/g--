@@ -1,0 +1,11 @@
+{
+  "name": "g--",
+  "version": "0.0.1",
+  "description": "Hides the notification count when not on plus.google.com.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/*"],
+      "css": ["hide_notification_count.css"]
+    }
+  ]
+}
