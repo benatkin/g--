@@ -7,5 +7,9 @@
       "matches": ["*://www.google.com/*"],
       "css": ["hide_notification_count.css"]
     }
-  ]
+  ],
+  "icons": {
+    "48":  "icon48.png",
+    "128": "icon128.png"
+  }
 }
